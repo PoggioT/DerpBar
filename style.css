@@ -26,6 +26,10 @@ body {
   overflow-x: auto;
   width: 100%;
   max-width: 100%;
+  background-color: #2a0d0d; /* fallback */
+  background: linear-gradient(135deg, #2a0d0d, #3b1b1b, #3d1a1a);
+  background-color: var(--bg);
+  color: var(--txt);
 }
 
 body {
