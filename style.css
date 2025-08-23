@@ -283,7 +283,12 @@ body {
 
 
 
-
+@supports (-webkit-touch-callout: none) {
+  /* Safari iOS */
+  body {
+    background-attachment: scroll;
+  }
+}
 
 
 
