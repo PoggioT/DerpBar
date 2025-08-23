@@ -175,7 +175,7 @@ body {
   cursor: pointer;
   width: 100%;
   max-width: 320px;
-  box-shadow: 0 2px 8px #700c0c;
+  box-shadow: 0 2px 8px #c51010;
   margin: 5px;
 }
 
@@ -185,7 +185,7 @@ body {
 .card-button:focus-visible {
   transform: translateY(-3px); /* Animação menor para destacar que são itens de uma lista */
     background: rgba(255, 0, 0, 0.042);
-    box-shadow: 0 2px 8px #ed0a0a;
+    box-shadow: 0 2px 8px #ff0000;
 }
 
 
