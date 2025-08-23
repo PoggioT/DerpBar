@@ -257,6 +257,26 @@ body {
 
 
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b3737;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #991c1c;
+}
+
+
+
+
 
 
 
