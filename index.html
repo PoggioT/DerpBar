@@ -1,13 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DerpBar | Contatos</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
-<body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Derp Bar | Contatos</title>
+    <meta
+      name="description"
+      content="Contatos oficiais do Derp Bar para eventos: financeiro, contratual, e redes."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Ícones -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <!-- CORPO -->
+  <body>
+    <div class="bg-accent"></div>
+    <div class="wrapper">
+      <header class="container header">
+        <div class="brand">
+          <img src="imagens/logo.jpeg" alt="Derp Bar Logo" class="logo" />
+          <div class="brand-text">
+            <h1>DERP BAR</h1>
+            <p class="effect">BEBA, AME, REPITA!</p>
+            <p class="subtitle">TASTING | EXCLUSIVIDADE | SOFISTICAÇÃO | CONEXÃO</p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Intro -->
+      <main class="container">
+        <section class="intro">
+          <h2>Fale com a gente</h2>
+          <p>Escolha o canal ideal para o seu atendimento.</p>
+        </section>
+
+        <section class="cards">
+          <!-- WhatsApp Financeiro -->
+          <a
+            class="card"
+            href="https://wa.me/5571999999999?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20falar%20com%20o%20financeiro."
+            target="_blank"
+            rel="noopener"
+            aria-label="WhatsApp Financeiro"
+          >
+            <div class="icon-wrap wpp">
+              <i class="bx bxl-whatsapp"></i>
+            </div>
+            <div class="card-body">
+              <h3>WhatsApp — Financeiro</h3>
+              <p>Dúvidas de pagamento.</p>
+            </div>
+            <!-- <span class="chip">Atendimento</span> -->
+          </a>
+
+          <!-- WhatsApp Contratual -->
+          <a
+            class="card"
+            href="https://wa.me/5571888888888?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Quero%20tratar%20de%20contrata%C3%A7%C3%A3o%20para%20evento."
+            target="_blank"
+            rel="noopener"
+            aria-label="WhatsApp Contratual"
+          >
+            <div class="icon-wrap wpp">
+              <i class="bx bxl-whatsapp"></i>
+            </div>
+            <div class="card-body">
+              <h3>WhatsApp — Contratual</h3>
+              <p>Orçamentos</p>
+            </div>
+            <!-- <span class="chip">Comercial</span> -->
+          </a>
+
+          <!-- E-mail -->
+          <button
+            class="card card-button"
+            href="mailto:contato@derpbar.com.br"
+            type="button"
+            data-copy="contato@derpbar.com.br"
+            aria-label="Copiar e-mail para a área de transferência"
+          >
+            <div class="icon-wrap email">
+              <i class="bx bx-envelope"></i>
+            </div>
+            <div class="card-body">
+              <h3>E-mail</h3>
+              <p>contato@derpbar.com.br</p>
+            </div>
+            <!-- <span class="chip">Copiar</span> -->
+          </button>
+
+          <!-- Instagram -->
+          <a
+            class="card"
+            href="https://instagram.com/derpbar"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+          >
+            <div class="icon-wrap ig">
+              <i class="bx bxl-instagram"></i>
+            </div>
+            <div class="card-body">
+              <h3>Instagram</h3>
+              <p>@derpbar</p>
+            </div>
+            <!-- <span class="chip">Apresentação</span> -->
+          </a>
+        </section>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container footer">
+        <small
+          >© <span id="year">2025</span> Derp Bar — Todos os direitos
+          reservados.</small
+        >
+    </footer>
     
-</body>
+    <div id="toast" role="status" aria-live="polite"></div>
+
+  </body>
 </html>
